@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="row bg-secondary">
+        <div class="col-md-5 ms-5 d-flex">
+            <img src="HomePageLogo.jpg" height="100px" width="400px">
+            <h4 class="text-white m-4">GREEN'S RESIDENCY</h4>
+        </div>
+        <div class="col-md-5 text-end mt-4">
+            <a href="Home.html" class="text-white m-4">HOME</a>
+            <button type="button" class="btn btn-secondary" id="cancelbooking">CANCEL BOOKING</button>
+            <div class="form-switch mt-3 text-white">
+                <input class="form-check-input" type="checkbox"> Allow Notifications
+            </div>
+        </div>
+    </div>
+    <div class="row m-5">
+        <div class="col-md-3">
+         <label class="form-label">Check-In</label>
+            <div class="input-group">
+                <input type="date" class="form-control">
+                <span class="input-group-text"><i class="bi bi-calendar-date"></i></span>
+            </div>
+        </div>
+        <div class="col-md-3">
+         <label class="form-label">Check-Out</label>
+            <div class="input-group">
+                <input type="date" class="form-control">
+                <span class="input-group-text"><i class="bi bi-calendar-date"></i></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Rooms/Guest</label>
+            <select class="form-select">
+                <option>1 Room, 1 Adult, 0 Children</option>
+                <option>1 Room, 2 Adults, 0 Children</option>
+                <option>2 Rooms, 4 Adults, 2 Children</option>
+            </select>
+        </div>
+        <div class="col-md-2 d-grid">
+            <button class="btn btn-success btn-md">SEARCH</button>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <img src="HomePageImage1.jpg" class="w-100" height="500px">
+    </div>
+            <h4 class="text-white bg-secondary w-100 h-25 text-center p-4 mt-5">Select options for Room</h4>
+            <div class="row m-4" style="border: 1px solid grey;">
+                <div class="col-md-7">
+                    <div id="carouselCompactRoom" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="CompactRoomImage1.jpg" class="w-100" style="height: 500px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="CompactRoomImage2.jpg" class="w-100" style="height: 500px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="CompactRoomImage3.jpg" class="w-100" style="height: 500px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="CompactRoomImage4.jpg" class="w-100" style="height: 500px;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCompactRoom" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCompactRoom" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h2 class="text-dark p-4">Compact Room</h2>
+                    <ul>
+                        <li><h5>Max Occupancy : 1</h5></li>
+                        <li><h5>Adult : 1</h5></li>
+                        <li><h5>Children : 0</h5></li>
+                        <li><h5>Bed Type : Double bed - 1</h5></li>
+                    </ul>
+                </div>
+                <br><h3>Rs.1,200 + Rs.400 taxes</h3>
+            <p>per night</p>
+            <button type="button" class="btn btn-success text-white w-25 mb-5 ms-2">ADD</button>
+            </div>
+        </div>
+    </div>
+    <div class="row m-4" style="border: 1px solid grey;">
+                <div class="col-md-7">
+                   <div id="carouselCompactRoom" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="EmperorRoomImage1.jpg" class="w-100" style="height: 500px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="EmperorRoomImage2.jpg" class="w-100" style="height: 500px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="EmperorRoomImage3.jpg" class="w-100" style="height: 500px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="EmperorRoomImage4.jpg" class="w-100" style="height: 500px;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCompactRoom" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCompactRoom" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h2 class="text-dark p-4">Emperor Room</h2>
+                    <ul>
+                        <li><h5>Max Occupancy : 3</h5></li>
+                        <li><h5>Adult : 2</h5></li>
+                        <li><h5>Children : 1</h5></li>
+                        <li><h5>Bed Type : Double bed - 1</h5></li>
+                    </ul>
+                </div>
+                <br><h3>Rs.1,800 + Rs.400 taxes</h3>
+            <p>per night</p>
+            <button type="button" class="btn btn-success text-white w-25 mb-5 ms-2">ADD</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary">
+        <div class="row text-white">
+            <div class="col-md-3 m-3">
+                <img src="HomePageLogo.jpg" height="100px" width="300px">
+                <p class="mt-2 fs-5">The rooms offered by IVY Residency are awe-inspiring as a lot of effort has been spent in decorating the rooms. The rooms have been provided with large windows that allow the guests to enjoy fresh air, bright sunlight and some amazing views.</p>
+            </div>
+            <div class="col-md-3 m-3">
+                <h4>Address</h4>
+                <p class="mt-3 fs-5"><i class="fa-solid fa-location-dot me-2"></i>No. 69, Main Road,<br>Oppanakara Street,<br>Opposite to LVB bank,<br>Town Hall, Coimbatore, <br>Tamil Nadu 641001.</p>
+                <p class="mt-3 fs-5"><i class="fa-solid fa-phone me-2"></i>+91 9876543210</p>
+                <p class="mt-3 fs-5"><i class="fa-solid fa-envelope me-2"></i>bookings@greensresidency.com</p>
+            </div>
+            <div class="col-md-2 m-3">
+                <h4>Connect With Us</h4>
+                <a href="https://www.facebook.com/login.php/"><i class="fa-brands fa-square-facebook me-2 text-primary fs-1"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube me-2 text-danger fs-1"></i></a>
+                <a href="https://www.instagram.com/?flo=true"><i class="fa-brands fa-square-instagram me-2 fs-1" style="color: #E1306C;"></i></a>
+                <a href="https://x.com/login!"><i class="fa-brands fa-square-twitter me-2 text-primary fs-1"></i></a>
+            </div>
+            <div class="col-md-2 m-3">
+                <h4>Location</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1920840920407!2d77.57522587418802!3d12.95955731514401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15e414cc3565%3A0x7c1045f595f46485!2sGreen&#39;s%20Residency!5e0!3m2!1sen!2sin!4v1755258825643!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a href="https://web.whatsapp.com/"class="whatsapp-btn position-fixed bottom-0 end-0 m-5 text-success" id="whatsappIcon"><i class="fa-brands fa-square-whatsapp"></i></a>
+    </div>
+</body>
+</html>

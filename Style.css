@@ -1,0 +1,16 @@
+#topbar {padding-top: 7px;
+                padding-left: 150px;}
+a {text-decoration: none;}
+#navoptions {margin-top: 10;}
+#whatsappIcon {font-size: 50px;}
+ul {list-style-type: none;}
+.offcanvas-body ul li a {
+    color: white;
+    font-size: 25px;
+}
+.offcanvas-body ul li {
+    margin-bottom: 10px;
+}
+#cancelbooking{
+    border: 1px solid white;
+}
